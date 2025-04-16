@@ -1,6 +1,4 @@
 <script lang="ts">
-	import '../app.css';
-
 	let count = $state(0);
 
 	const onclickPlus = () => {
@@ -13,7 +11,7 @@
 </script>
 
 <section>
-	<h1>Super basic Svelte - Amplify test</h1>
+	<h1>Welcome to this app</h1>
 	<p>
 		{count}
 	</p>
